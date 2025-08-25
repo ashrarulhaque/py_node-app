@@ -1,0 +1,28 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend-Node_app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashrarulhaque/py_node-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "frontend"
+  ],
+  "author": "Ashrarul Haque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashrarulhaque/py_node-app/issues"
+  },
+  "homepage": "https://github.com/ashrarulhaque/py_node-app#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.3",
+    "express": "^5.1.0"
+  }
+}
