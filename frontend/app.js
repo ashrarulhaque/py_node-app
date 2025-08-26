@@ -4,6 +4,7 @@ const axios = require("axios");
 
 const app = express();
 const PORT = 3000;
+const HOST = "127.0.0.1";    //Replace it with 0.0.0.0 when the image is running on ec2 instance.
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -41,6 +42,6 @@ app.post("/submit", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Frontend running at http://localhost:${PORT}`);
+app.listen(PORT, HOST, () => {
+  console.log(`Frontend running at ${HOST}:${PORT}`);
 });
